@@ -36,7 +36,7 @@ Instructions for Youtube Video [Check Point for Grafana (Skyline) ](https://www.
 
 ## 3.  Run Prometheus on boot (Optional)
 
-3.1 Add the following line to your **prometheus.yml** fileusually located in */home/username/prometheus-2.38.0.linux-amd64/*
+3.1 Add the following line to your **prometheus.yml** file usually located in */home/username/prometheus-2.38.0.linux-amd64/*
 
     remote_write:
         - url: "http://10.1.0.5:9090/api/v1/write"
