@@ -82,7 +82,7 @@ Note: If you get the error *"dpkg: Error processing package grafana-enterprise"*
 
     sudo apt --fix-broken install**
 
-4.2 To test if Grafana is running navigate to http://IP:3000 in a web browser.
+4.2 To test if Grafana is running navigate to http://x.x.x.x:3000 in a web browser.
 
 4.3 Login to Grafana with admin/admin and change the default password.
 
