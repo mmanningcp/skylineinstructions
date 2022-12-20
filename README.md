@@ -98,7 +98,7 @@ Note: If you get the error *"dpkg: Error processing package grafana-enterprise"*
 5.1 Create **payload-no-tls.json**
 
     sudo touch payload-no-tls.json
-    sudo payload-no-tls.json
+    sudo vi payload-no-tls.json
 
 5.2 Copy below into "payload-no-tls.json"
 
