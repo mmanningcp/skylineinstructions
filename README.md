@@ -1,5 +1,5 @@
 # Check Point Skyline + Prometheus, Grafana on Ubuntu 20.04
-Instructions for Youtube Video [Check Point for Grafana (Skyline) ](https://www.youtube.com/watch?v=SAYFdKnW9GA)
+Instructions for Youtube Video [Check Point for Grafana (Skyline) ](https://youtu.be/FO2Rp9x31i0)
 ## 1. Update Ubuntu 20.04 server
 1.1 Once Ubuntu 20.04 has been downloaded and installed, ensure it had has 
 - Network access
