@@ -82,7 +82,7 @@ WantedBy=multi-user.target
 
 Note: If you get the error *"dpkg: Error processing package grafana-enterprise"* run the command below, otherwise skip to 4.2
 
-    sudo apt --fix-broken install**
+    sudo apt --fix-broken install
 
 4.2 To test if Grafana is running navigate to http://x.x.x.x:3000 in a web browser.
 
