@@ -39,7 +39,7 @@ Instructions for Youtube Video [Check Point for Grafana (Skyline) ](https://yout
 3.1 Add the following line to your **prometheus.yml** file usually located in */home/username/prometheus-2.38.0.linux-amd64/*
 
     remote_write:
-        - url: "http://10.1.0.5:9090/api/v1/write"
+        - url: "http://x.x.x.x:9090/api/v1/write"
 
 
 3.2  Create **"prometheus.service"** services file
@@ -58,7 +58,7 @@ After-network=online.target
 User=root
 Restart=on-failure
 
-ExecStart=/home/sysadmin/prometheus-2.38.0.linux-amd64/prometheus --config.file=/home/sysadmin/prometheus-2.38.0.linux-amd64/prometheus.yml
+ExecStart=/home/username/prometheus-2.38.0.linux-amd64/prometheus --config.file=/home/username/prometheus-2.38.0.linux-amd64/prometheus.yml --web.enable-remote-write-receiver
 
 [Install]
 WantedBy=multi-user.target
