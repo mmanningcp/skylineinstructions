@@ -117,7 +117,7 @@ Note: If you get the error *"dpkg: Error processing package grafana-enterprise"*
 
 5.3 Run the following command
 
-    /opt/CPotelcol/REST.py --set_open_telemetry "$(cat payload-no-tls.json)"
+    sklnctl export --set "$(cat payload-no-tls.json)"
 
 5.4  Check your Grafana server for data. 
 
